@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "75c1bcec78ce715c964973cde3d099c0",
+    "content-hash": "a3a7e340b240941ed3b783ead550a045",
     "packages": [
         {
             "name": "asbiin/laravel-webauthn",
@@ -84,16 +84,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.133.34",
+            "version": "3.133.44",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "02131fd17c9b62f36993bb2da88dd624ce058179"
+                "reference": "00df425deebdde3f3bebfde446a4250695dc47e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/02131fd17c9b62f36993bb2da88dd624ce058179",
-                "reference": "02131fd17c9b62f36993bb2da88dd624ce058179",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/00df425deebdde3f3bebfde446a4250695dc47e4",
+                "reference": "00df425deebdde3f3bebfde446a4250695dc47e4",
                 "shasum": ""
             },
             "require": {
@@ -164,7 +164,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-03-11T18:17:17+00:00"
+            "time": "2020-03-25T18:15:47+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -1245,16 +1245,16 @@
         },
         {
             "name": "facade/ignition",
-            "version": "2.0.1",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facade/ignition.git",
-                "reference": "b8dbf7791c81619161270d580a64a30bad41b832"
+                "reference": "67f1677954ad33ca6b77f2c41cf43a58624f27fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facade/ignition/zipball/b8dbf7791c81619161270d580a64a30bad41b832",
-                "reference": "b8dbf7791c81619161270d580a64a30bad41b832",
+                "url": "https://api.github.com/repos/facade/ignition/zipball/67f1677954ad33ca6b77f2c41cf43a58624f27fc",
+                "reference": "67f1677954ad33ca6b77f2c41cf43a58624f27fc",
                 "shasum": ""
             },
             "require": {
@@ -1276,7 +1276,7 @@
                 "orchestra/testbench": "5.0"
             },
             "suggest": {
-                "laravel/telescope": "^2.0"
+                "laravel/telescope": "^3.1"
             },
             "type": "library",
             "extra": {
@@ -1312,7 +1312,7 @@
                 "laravel",
                 "page"
             ],
-            "time": "2020-03-05T12:32:22+00:00"
+            "time": "2020-03-18T19:20:44+00:00"
         },
         {
             "name": "facade/ignition-contracts",
@@ -1544,23 +1544,23 @@
         },
         {
             "name": "firebase/php-jwt",
-            "version": "v5.1.0",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "4566062c68f76f43d44f1643f4970fe89757d4c6"
+                "reference": "feb0e820b8436873675fd3aca04f3728eb2185cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/4566062c68f76f43d44f1643f4970fe89757d4c6",
-                "reference": "4566062c68f76f43d44f1643f4970fe89757d4c6",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/feb0e820b8436873675fd3aca04f3728eb2185cb",
+                "reference": "feb0e820b8436873675fd3aca04f3728eb2185cb",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8|^5"
+                "phpunit/phpunit": ">=4.8 <=9"
             },
             "type": "library",
             "autoload": {
@@ -1586,7 +1586,11 @@
             ],
             "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
             "homepage": "https://github.com/firebase/php-jwt",
-            "time": "2020-02-24T23:15:03+00:00"
+            "keywords": [
+                "jwt",
+                "php"
+            ],
+            "time": "2020-03-25T18:49:23+00:00"
         },
         {
             "name": "geoip2/geoip2",
@@ -2545,16 +2549,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v7.1.0",
+            "version": "v7.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "59b97d2868ff42d11626e63c6773b41146b3eb9c"
+                "reference": "36d8958b5b8058ef0641806e490f91102fdea70d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/59b97d2868ff42d11626e63c6773b41146b3eb9c",
-                "reference": "59b97d2868ff42d11626e63c6773b41146b3eb9c",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/36d8958b5b8058ef0641806e490f91102fdea70d",
+                "reference": "36d8958b5b8058ef0641806e490f91102fdea70d",
                 "shasum": ""
             },
             "require": {
@@ -2572,7 +2576,7 @@
                 "php": "^7.2.5",
                 "psr/container": "^1.0",
                 "psr/simple-cache": "^1.0",
-                "ramsey/uuid": "^3.7",
+                "ramsey/uuid": "^3.7|^4.0",
                 "swiftmailer/swiftmailer": "^6.0",
                 "symfony/console": "^5.0",
                 "symfony/error-handler": "^5.0",
@@ -2692,7 +2696,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2020-03-10T14:07:01+00:00"
+            "time": "2020-03-24T15:17:51+00:00"
         },
         {
             "name": "laravel/passport",
@@ -3073,16 +3077,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "1.3.1",
+            "version": "1.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "8015f806173c6ee54de25a87c2d69736696e88db"
+                "reference": "75542a366ccbe1896ed79fcf3e8e68206d6c4257"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/8015f806173c6ee54de25a87c2d69736696e88db",
-                "reference": "8015f806173c6ee54de25a87c2d69736696e88db",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/75542a366ccbe1896ed79fcf3e8e68206d6c4257",
+                "reference": "75542a366ccbe1896ed79fcf3e8e68206d6c4257",
                 "shasum": ""
             },
             "require": {
@@ -3143,7 +3147,7 @@
                 "md",
                 "parser"
             ],
-            "time": "2020-02-28T18:53:50+00:00"
+            "time": "2020-03-25T19:55:28+00:00"
         },
         {
             "name": "league/event",
@@ -3515,16 +3519,16 @@
         },
         {
             "name": "league/uri",
-            "version": "6.2.0",
+            "version": "6.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/uri.git",
-                "reference": "7b29ca33b287b4277d5ce7c26bc1be5d4118b484"
+                "reference": "6998530902550c6e3fefb5ef98d56fe92ecdb603"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/uri/zipball/7b29ca33b287b4277d5ce7c26bc1be5d4118b484",
-                "reference": "7b29ca33b287b4277d5ce7c26bc1be5d4118b484",
+                "url": "https://api.github.com/repos/thephpleague/uri/zipball/6998530902550c6e3fefb5ef98d56fe92ecdb603",
+                "reference": "6998530902550c6e3fefb5ef98d56fe92ecdb603",
                 "shasum": ""
             },
             "require": {
@@ -3541,7 +3545,7 @@
                 "phpstan/phpstan": "^0.12",
                 "phpstan/phpstan-phpunit": "^0.12",
                 "phpstan/phpstan-strict-rules": "^0.12",
-                "phpunit/phpunit": "^7.0 | ^8.0"
+                "phpunit/phpunit": "^8.0"
             },
             "suggest": {
                 "ext-fileinfo": "Needed to create Data URI from a filepath",
@@ -3593,7 +3597,7 @@
                 "url",
                 "ws"
             ],
-            "time": "2020-02-08T16:31:57+00:00"
+            "time": "2020-03-17T14:40:17+00:00"
         },
         {
             "name": "league/uri-components",
@@ -3737,24 +3741,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/coxy121/Laravel-JS-Localization.git",
-                "reference": "24892ad5ffb8b7945386e37f6370e4687bca4cec"
+                "reference": "925bf502ef1a4164df3868f0363638d393168d91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coxy121/Laravel-JS-Localization/zipball/24892ad5ffb8b7945386e37f6370e4687bca4cec",
-                "reference": "24892ad5ffb8b7945386e37f6370e4687bca4cec",
+                "url": "https://api.github.com/repos/coxy121/Laravel-JS-Localization/zipball/925bf502ef1a4164df3868f0363638d393168d91",
+                "reference": "925bf502ef1a4164df3868f0363638d393168d91",
                 "shasum": ""
             },
             "require": {
-                "illuminate/config": ">=4.2",
-                "illuminate/console": ">=4.2",
-                "illuminate/filesystem": ">=4.2",
-                "php": ">=5.4.0",
-                "tedivm/jshrink": "~1.0",
-                "vlucas/phpdotenv": "^3.3|^4.0"
+                "illuminate/config": "^7.0",
+                "illuminate/console": "^7.0",
+                "illuminate/filesystem": "^7.0",
+                "php": ">=7.2.5",
+                "tedivm/jshrink": "^1.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "4.8.*"
+                "orchestra/testbench": "^5.0",
+                "phpunit/phpunit": "^8.5"
             },
             "type": "library",
             "extra": {
@@ -3773,24 +3777,6 @@
                 "psr-4": {
                     "Mariuzzo\\LaravelJsLocalization\\": "tests/specs"
                 }
-            },
-            "scripts": {
-                "test-install": [
-                    "composer install --prefer-dist --no-interaction --working-dir tests/4.2",
-                    "composer install --prefer-dist --no-interaction --working-dir tests/5.0",
-                    "composer install --prefer-dist --no-interaction --working-dir tests/5.1",
-                    "composer install --prefer-dist --no-interaction --working-dir tests/5.2",
-                    "./tests/5.3/install",
-                    "./tests/5.4/install"
-                ],
-                "test": [
-                    "./vendor/bin/phpunit --configuration tests/4.2",
-                    "./vendor/bin/phpunit --configuration tests/5.0",
-                    "./vendor/bin/phpunit --configuration tests/5.1",
-                    "./vendor/bin/phpunit --configuration tests/5.2",
-                    "./tests/5.3/run",
-                    "./tests/5.4/run"
-                ]
             },
             "license": [
                 "MIT"
@@ -3832,14 +3818,14 @@
                 "js",
                 "lang",
                 "laravel",
-                "laravel 5",
+                "laravel 7",
                 "localization"
             ],
             "support": {
                 "issues": "https://github.com/rmariuzzo/laravel-js-localization/issues",
                 "source": "https://github.com/rmariuzzo/laravel-js-localization"
             },
-            "time": "2020-03-06T23:45:51+00:00"
+            "time": "2020-03-24T21:42:57+00:00"
         },
         {
             "name": "matriphe/iso-639",
@@ -5637,28 +5623,28 @@
         },
         {
             "name": "pragmarx/coollection",
-            "version": "v0.7.1",
+            "version": "v0.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/antonioribeiro/coollection.git",
-                "reference": "e6ef538d366bf58a0d82812789c47d17a8691258"
+                "reference": "75e4186c3e17acea4dbbe6f65ec3c79f736061cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/antonioribeiro/coollection/zipball/e6ef538d366bf58a0d82812789c47d17a8691258",
-                "reference": "e6ef538d366bf58a0d82812789c47d17a8691258",
+                "url": "https://api.github.com/repos/antonioribeiro/coollection/zipball/75e4186c3e17acea4dbbe6f65ec3c79f736061cb",
+                "reference": "75e4186c3e17acea4dbbe6f65ec3c79f736061cb",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.0",
-                "pragmarx/ia-arr": ">=5.5.33",
-                "pragmarx/ia-collection": ">=5.5.33",
-                "pragmarx/ia-str": ">=5.5.33"
+                "pragmarx/ia-arr": "~5.0|~6.0|~7.0",
+                "pragmarx/ia-collection": "~5.0|~6.0|~7.0",
+                "pragmarx/ia-str": "~5.0|~6.0|~7.0"
             },
             "require-dev": {
                 "mockery/mockery": "~1.0",
-                "phpunit/php-timer": ">=1.0|>=2.0",
-                "phpunit/phpunit": ">=6.0|>=7.0",
+                "phpunit/php-timer": "~1.0|~2.0",
+                "phpunit/phpunit": "~6.0|~7.0|~8.0|~9.0",
                 "squizlabs/php_codesniffer": "^2.3"
             },
             "type": "library",
@@ -5697,27 +5683,27 @@
                 "laravel",
                 "pragmarx"
             ],
-            "time": "2019-09-24T18:55:06+00:00"
+            "time": "2020-03-26T08:57:17+00:00"
         },
         {
             "name": "pragmarx/countries",
-            "version": "v0.7.0",
+            "version": "v0.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/antonioribeiro/countries.git",
-                "reference": "f815d5f68b86248b7dd67ee7d259f8ffacab2305"
+                "reference": "af3e865e2dcce303445f8d2c51c517cb210c06ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/antonioribeiro/countries/zipball/f815d5f68b86248b7dd67ee7d259f8ffacab2305",
-                "reference": "f815d5f68b86248b7dd67ee7d259f8ffacab2305",
+                "url": "https://api.github.com/repos/antonioribeiro/countries/zipball/af3e865e2dcce303445f8d2c51c517cb210c06ac",
+                "reference": "af3e865e2dcce303445f8d2c51c517cb210c06ac",
                 "shasum": ""
             },
             "require": {
                 "colinodell/json5": "^1.0",
                 "nette/caching": "^2.5",
                 "php": ">=7.0",
-                "pragmarx/coollection": "^0.7",
+                "pragmarx/coollection": ">=0.5",
                 "psr/simple-cache": "^1.0"
             },
             "require-dev": {
@@ -5759,7 +5745,7 @@
                 "timezones",
                 "topology"
             ],
-            "time": "2019-09-12T23:43:15+00:00"
+            "time": "2019-09-24T19:45:24+00:00"
         },
         {
             "name": "pragmarx/countries-laravel",
@@ -6019,16 +6005,16 @@
         },
         {
             "name": "pragmarx/ia-arr",
-            "version": "dev-support-var-dumper-5",
+            "version": "v7.3.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/asbiin/ia-arr.git",
-                "reference": "7438a543679243506c73a6a2debffa6f52323b1a"
+                "url": "https://github.com/antonioribeiro/ia-arr.git",
+                "reference": "e0107e68bbce8736f6e19c796a5511b741ced227"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asbiin/ia-arr/zipball/7438a543679243506c73a6a2debffa6f52323b1a",
-                "reference": "7438a543679243506c73a6a2debffa6f52323b1a",
+                "url": "https://api.github.com/repos/antonioribeiro/ia-arr/zipball/e0107e68bbce8736f6e19c796a5511b741ced227",
+                "reference": "e0107e68bbce8736f6e19c796a5511b741ced227",
                 "shasum": ""
             },
             "require": {
@@ -6038,7 +6024,7 @@
             "require-dev": {
                 "mockery/mockery": "~1.0",
                 "nesbot/carbon": "^1.26 || ^2.00",
-                "phpunit/phpunit": "~6.0|~7.0",
+                "phpunit/phpunit": "~6.0|~7.0|~8.0|~9.0",
                 "squizlabs/php_codesniffer": "^2.3"
             },
             "suggest": {
@@ -6047,8 +6033,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev",
-                    "dev-support-var-dumper-5": "7.0-dev"
+                    "dev-master": "1.0-dev"
                 }
             },
             "autoload": {
@@ -6061,18 +6046,7 @@
                     "src/Support/alias.php"
                 ]
             },
-            "scripts": {
-                "test": [
-                    "@composer install",
-                    "vendor/bin/phpunit"
-                ],
-                "check-style": [
-                    "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
-                ],
-                "fix-style": [
-                    "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -6093,30 +6067,28 @@
                 "laravel",
                 "pragmarx"
             ],
-            "support": {
-                "source": "https://github.com/asbiin/ia-arr/tree/master"
-            },
-            "time": "2020-03-07T20:23:42+00:00"
+            "time": "2020-03-26T08:59:52+00:00"
         },
         {
             "name": "pragmarx/ia-collection",
-            "version": "dev-support-var-dumper-5",
+            "version": "v7.3.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/asbiin/ia-collection.git",
-                "reference": "02031062757f5f9a2faee29c7a3c28aa1fe6343d"
+                "url": "https://github.com/antonioribeiro/ia-collection.git",
+                "reference": "97a00312ffc190cfcac3ae919ed2e122deb685f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asbiin/ia-collection/zipball/02031062757f5f9a2faee29c7a3c28aa1fe6343d",
-                "reference": "02031062757f5f9a2faee29c7a3c28aa1fe6343d",
+                "url": "https://api.github.com/repos/antonioribeiro/ia-collection/zipball/97a00312ffc190cfcac3ae919ed2e122deb685f5",
+                "reference": "97a00312ffc190cfcac3ae919ed2e122deb685f5",
                 "shasum": ""
             },
             "require": {
                 "nesbot/carbon": "^1.26 || ^2.00",
                 "php": ">=7.0",
-                "ramsey/uuid": "^3.7",
-                "symfony/var-dumper": "~3.3|~4.0|~5.0"
+                "ramsey/uuid": "~3.7|~4.0",
+                "symfony/var-dumper": "~3.3|~4.0|~5.0",
+                "voku/portable-ascii": "^1.4"
             },
             "require-dev": {
                 "mockery/mockery": "~1.0",
@@ -6127,8 +6099,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev",
-                    "dev-support-var-dumper-5": "7.0-dev"
+                    "dev-master": "1.0-dev"
                 }
             },
             "autoload": {
@@ -6141,18 +6112,7 @@
                     "src/Support/alias.php"
                 ]
             },
-            "scripts": {
-                "test": [
-                    "@composer install",
-                    "vendor/bin/phpunit"
-                ],
-                "check-style": [
-                    "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
-                ],
-                "fix-style": [
-                    "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -6172,37 +6132,35 @@
                 "laravel",
                 "pragmarx"
             ],
-            "support": {
-                "source": "https://github.com/asbiin/ia-collection/tree/support-laravel-7"
-            },
-            "time": "2020-03-07T20:29:44+00:00"
+            "time": "2020-03-26T08:39:18+00:00"
         },
         {
             "name": "pragmarx/ia-str",
-            "version": "v6.0.3",
+            "version": "v7.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/antonioribeiro/ia-str.git",
-                "reference": "85a1dcfc193708532cda0dee65b937fa25f52b9d"
+                "reference": "6f0c981d3b16cd9715366a6d5f452df0654cbcc4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/antonioribeiro/ia-str/zipball/85a1dcfc193708532cda0dee65b937fa25f52b9d",
-                "reference": "85a1dcfc193708532cda0dee65b937fa25f52b9d",
+                "url": "https://api.github.com/repos/antonioribeiro/ia-str/zipball/6f0c981d3b16cd9715366a6d5f452df0654cbcc4",
+                "reference": "6f0c981d3b16cd9715366a6d5f452df0654cbcc4",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.0"
+                "php": ">=7.0",
+                "voku/portable-ascii": "^1.4"
             },
             "require-dev": {
                 "doctrine/inflector": "^1.2",
                 "mockery/mockery": "~1.0",
                 "moontoast/math": "^1.1",
                 "nesbot/carbon": "^1.26 || ^2.00",
-                "phpunit/phpunit": "~6.0|~7.0",
-                "ramsey/uuid": "^3.7",
+                "phpunit/phpunit": "~6.0|~7.0|~8.0|~9.0",
+                "ramsey/uuid": "^3.7|^4.0",
                 "squizlabs/php_codesniffer": "^2.3",
-                "symfony/var-dumper": "~3.3|~4.0"
+                "symfony/var-dumper": "~3.3|~4.0|~5.0"
             },
             "suggest": {
                 "doctrine/inflector": "",
@@ -6247,7 +6205,7 @@
                 "str",
                 "string"
             ],
-            "time": "2019-09-12T03:59:57+00:00"
+            "time": "2020-03-26T08:45:03+00:00"
         },
         {
             "name": "pragmarx/random",
@@ -6815,16 +6773,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.10.0",
+            "version": "v0.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "e361c8b7e5114534078e0ce04ddc442b39018a3c"
+                "reference": "573c2362c3cdebe846b4adae4b630eecb350afd8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/e361c8b7e5114534078e0ce04ddc442b39018a3c",
-                "reference": "e361c8b7e5114534078e0ce04ddc442b39018a3c",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/573c2362c3cdebe846b4adae4b630eecb350afd8",
+                "reference": "573c2362c3cdebe846b4adae4b630eecb350afd8",
                 "shasum": ""
             },
             "require": {
@@ -6884,7 +6842,7 @@
                 "interactive",
                 "shell"
             ],
-            "time": "2020-03-15T22:52:37+00:00"
+            "time": "2020-03-21T06:55:27+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -9847,16 +9805,16 @@
         },
         {
             "name": "thecodingmachine/safe",
-            "version": "v1.0.3",
+            "version": "v1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thecodingmachine/safe.git",
-                "reference": "6662d0bef91fe5d44178cb2c38d51c5d16b65d23"
+                "reference": "f440677bad66c0ef42fa3f875bf05718028af5d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thecodingmachine/safe/zipball/6662d0bef91fe5d44178cb2c38d51c5d16b65d23",
-                "reference": "6662d0bef91fe5d44178cb2c38d51c5d16b65d23",
+                "url": "https://api.github.com/repos/thecodingmachine/safe/zipball/f440677bad66c0ef42fa3f875bf05718028af5d3",
+                "reference": "f440677bad66c0ef42fa3f875bf05718028af5d3",
                 "shasum": ""
             },
             "require": {
@@ -9975,7 +9933,7 @@
                 "MIT"
             ],
             "description": "PHP core functions that throw exceptions instead of returning FALSE on error",
-            "time": "2020-01-20T08:44:36+00:00"
+            "time": "2020-03-24T13:59:42+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -10148,16 +10106,16 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v4.1.1",
+            "version": "v4.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "32bd5ca5a4170f88e27073353013d210a3354ae9"
+                "reference": "939dfda2d7267ac8fc53ac3d642b5de357554c39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/32bd5ca5a4170f88e27073353013d210a3354ae9",
-                "reference": "32bd5ca5a4170f88e27073353013d210a3354ae9",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/939dfda2d7267ac8fc53ac3d642b5de357554c39",
+                "reference": "939dfda2d7267ac8fc53ac3d642b5de357554c39",
                 "shasum": ""
             },
             "require": {
@@ -10206,27 +10164,27 @@
                 "env",
                 "environment"
             ],
-            "time": "2020-03-01T23:56:01+00:00"
+            "time": "2020-03-12T13:44:15+00:00"
         },
         {
             "name": "vluzrmos/language-detector",
-            "version": "dev-laravel-7",
+            "version": "v2.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/asbiin/laravel-language-detector.git",
-                "reference": "9862ebe7c5a4525f03cae91e37431439c3c48a8d"
+                "url": "https://github.com/vluzrmos/laravel-language-detector.git",
+                "reference": "736241f33775d74129d3310e53a8742614179df3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asbiin/laravel-language-detector/zipball/9862ebe7c5a4525f03cae91e37431439c3c48a8d",
-                "reference": "9862ebe7c5a4525f03cae91e37431439c3c48a8d",
+                "url": "https://api.github.com/repos/vluzrmos/laravel-language-detector/zipball/736241f33775d74129d3310e53a8742614179df3",
+                "reference": "736241f33775d74129d3310e53a8742614179df3",
                 "shasum": ""
             },
             "require": {
-                "illuminate/config": ">6.0",
-                "illuminate/cookie": ">6.0",
-                "illuminate/support": ">6.0",
-                "illuminate/translation": ">6.0",
+                "illuminate/config": "~6.0 || ~7.0",
+                "illuminate/cookie": "~6.0 || ~7.0",
+                "illuminate/support": "~6.0 || ~7.0",
+                "illuminate/translation": "~6.0 || ~7.0",
                 "php": "^7.2"
             },
             "require-dev": {
@@ -10243,11 +10201,7 @@
                     "src/Support/helpers.php"
                 ]
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Vluzrmos\\LanguageDetector\\Testing\\": "tests/"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -10259,29 +10213,26 @@
             ],
             "description": "Detect the language for your application using browser preferences, subdomains or route prefixes.",
             "keywords": [
-                "Language",
-                "Laravel",
-                "Locale",
-                "Lumen",
-                "i18n"
+                "i18n",
+                "language",
+                "laravel",
+                "locale",
+                "lumen"
             ],
-            "support": {
-                "source": "https://github.com/asbiin/laravel-language-detector/tree/laravel-7"
-            },
-            "time": "2020-03-07T16:40:29+00:00"
+            "time": "2020-03-22T01:07:02+00:00"
         },
         {
             "name": "voku/portable-ascii",
-            "version": "1.4.9",
+            "version": "1.4.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/voku/portable-ascii.git",
-                "reference": "9fd2b224c71448b5f84aef9d499a1428d79776a2"
+                "reference": "240e93829a5f985fab0984a6e55ae5e26b78a334"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voku/portable-ascii/zipball/9fd2b224c71448b5f84aef9d499a1428d79776a2",
-                "reference": "9fd2b224c71448b5f84aef9d499a1428d79776a2",
+                "url": "https://api.github.com/repos/voku/portable-ascii/zipball/240e93829a5f985fab0984a6e55ae5e26b78a334",
+                "reference": "240e93829a5f985fab0984a6e55ae5e26b78a334",
                 "shasum": ""
             },
             "require": {
@@ -10317,7 +10268,7 @@
                 "clean",
                 "php"
             ],
-            "time": "2020-03-06T02:47:42+00:00"
+            "time": "2020-03-13T01:23:26+00:00"
         },
         {
             "name": "web-auth/cose-lib",
@@ -12106,16 +12057,16 @@
         },
         {
             "name": "nunomaduro/larastan",
-            "version": "v0.5.2",
+            "version": "v0.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nunomaduro/larastan.git",
-                "reference": "a4cc1d5861123ea4c6b5c966a092063fb70a144b"
+                "reference": "d5ef8812cefb4ef951f18f27e70e5fd8a81cd2bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nunomaduro/larastan/zipball/a4cc1d5861123ea4c6b5c966a092063fb70a144b",
-                "reference": "a4cc1d5861123ea4c6b5c966a092063fb70a144b",
+                "url": "https://api.github.com/repos/nunomaduro/larastan/zipball/d5ef8812cefb4ef951f18f27e70e5fd8a81cd2bf",
+                "reference": "d5ef8812cefb4ef951f18f27e70e5fd8a81cd2bf",
                 "shasum": ""
             },
             "require": {
@@ -12174,7 +12125,7 @@
                 "php",
                 "static analysis"
             ],
-            "time": "2020-02-10T12:49:03+00:00"
+            "time": "2020-03-22T21:22:21+00:00"
         },
         {
             "name": "openlss/lib-array2xml",
@@ -12608,16 +12559,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "0.12.14",
+            "version": "0.12.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "37bdd26a80235d0f9045b49f4151102b7831cbe2"
+                "reference": "1ce27fe29c8660a27926127d350d53d80c4d4286"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/37bdd26a80235d0f9045b49f4151102b7831cbe2",
-                "reference": "37bdd26a80235d0f9045b49f4151102b7831cbe2",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/1ce27fe29c8660a27926127d350d53d80c4d4286",
+                "reference": "1ce27fe29c8660a27926127d350d53d80c4d4286",
                 "shasum": ""
             },
             "require": {
@@ -12643,7 +12594,7 @@
                 "MIT"
             ],
             "description": "PHPStan - PHP Static Analysis Tool",
-            "time": "2020-03-02T22:29:43+00:00"
+            "time": "2020-03-22T16:51:47+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -14453,9 +14404,6 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "mariuzzo/laravel-js-localization": 20,
-        "pragmarx/ia-arr": 20,
-        "pragmarx/ia-collection": 20,
-        "vluzrmos/language-detector": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,
